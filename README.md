@@ -63,16 +63,16 @@ scrapy crawl <spider name>
 ```
 check your local mongoDB:fourgol collection:Thread 
 
-## About Scrapyd
+~~## About Scrapyd
 #### Web Interface
 http://3.89.221.105:6800/
 
-#### Schedule a spider run
+~~#### Schedule a spider run
 ```
 curl http://3.89.221.105:6800/schedule.json -d project=fourgol -d spider=<spider_name>
 ```
 
-#### Cancel a spider run
+~~#### Cancel a spider run
 ```
 curl http://3.89.221.105:6800/cancel.json -d project=fourgol -d job=<job_ID>
 ```
