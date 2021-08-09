@@ -28,8 +28,8 @@ class CrackingproSpider(FourgolSpider):
         'AWS_DYNAMODB_TABLE_NAME' : AWS_DYNAMODB_TABLE_NAME % name
     }
 
-    crawlera_enabled = True
-    crawlera_apikey = '4cb89a13a16e4cba9e2fa21f48a0bffd'
+    # crawlera_enabled = True
+    # crawlera_apikey = ''
 
     def __init__(self, name=None, **kwargs):
         self.base_url = 'https://www.crackingpro.com'
