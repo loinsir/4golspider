@@ -63,10 +63,10 @@ scrapy crawl <spider name>
 ```
 check your local mongoDB:fourgol collection:Thread 
 
-~~## About Scrapyd~~
+~~## About Scrapyd~~(deleted)
 
-~~#### Web Interface~~
-~~http://3.89.221.105:6800/~~~~
+~~#### Web Interface~~(deleted)
+~~http://3.89.221.105:6800/~~~~(deleted)
 
 ~~#### Schedule a spider run~~(deleted)
 ```
